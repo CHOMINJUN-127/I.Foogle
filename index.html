@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I.Foogle</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+
+    <style>
+        /* ===== body ===== */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', Arial, sans-serif;
+            background-color: #ffffff;
+        }
+
+        /* ===== 로고 (원본 그대로) ===== */
+        h1 {
+            text-align: center;
+            margin-top: 232px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 90px;
+            line-height: 105px;
+            letter-spacing: -12px;
+        }
+
+        h1 span:nth-child(1) { color: #4285F4; }
+        h1 span:nth-child(2) { color: #EA4335; }
+        h1 span:nth-child(3) { color: #FBBC05; }
+        h1 span:nth-child(4) { color: #4285F4; }
+        h1 span:nth-child(5) { color: #34A853; }
+        h1 span:nth-child(6) { color: #EA4335; }
+        h1 span:nth-child(7) { color: #4285F4; }
+        h1 span:nth-child(8) { color: #34A853; }
+
+        /* ===== 검색창 ===== */
+        form {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        input[type="text"] {
+            width: 616px;
+            height: 46px;
+            padding: 0 20px;
+            font-size: 16px;
+            border-radius: 24px;
+            border: 1px solid #DFE1E5;
+            outline: none;
+            box-sizing: border-box;
+        }
+
+        input[type="text"]:hover,
+        input[type="text"]:focus {
+            box-shadow: 0 1px 6px rgba(32,33,36,.28);
+            border-color: transparent;
+        }
+
+        /* ===== 버튼 ===== */
+        .button-box {
+            margin-top: 26px;
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+        }
+
+        button {
+            height: 36px;
+            padding: 0 16px;
+            font-size: 14px;
+            background-color: #F8F9FA;
+            border: 1px solid #F8F9FA;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            border: 1px solid #DADCE0;
+            box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- 로고 -->
+    <h1>
+        <span>I</span>
+        <span>.</span>
+        <span>F</span>
+        <span>o</span>
+        <span>o</span>
+        <span>g</span>
+        <span>l</span>
+        <span>e</span>
+    </h1>
+
+    <!-- 검색 -->
+    <form action="https://www.google.com/search" method="get">
+        <input type="text" name="q" autocomplete="off">
+
+        <div class="button-box">
+            <!-- <button type="submit">Google 검색</button> -->
+            <!-- <button type="button" onclick="feelingLucky()">I'm Feeling Lucky</button> -->
+            <!-- <button type="button" onclick="alert('구글 정책으로 인해 해당 기능은 현재 지원되지 않습니다.')">
+    I'm Feeling Lucky
+</button> -->
+
+    <button type="submit">Google 검색</button>
+    <button type="button" onclick="quickSearch('인공지능')">인공지능</button>
+    <button type="button" onclick="quickSearch('파이썬')">파이썬</button>
+    <button type="button" onclick="quickSearch('과학 뉴스')">과학 뉴스</button>
+
+
+
+        </div>
+    </form>
+
+
+<script>
+    function quickSearch(keyword) {
+        const input = document.querySelector('input[name="q"]');
+        input.value = keyword;
+        document.querySelector('form').submit();
+    }
+</script>
+
+
+</body>
+</html>
+
