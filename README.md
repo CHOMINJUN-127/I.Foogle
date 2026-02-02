@@ -1,8 +1,13 @@
-# I.Foogle 🔍 [Live Demo](https://chominjun-127.github.io/I.Foogle/)
+# I.Foogle 🔍
+
+🌐 **Live Demo:** https://chominjun-127.github.io/I.Foogle/
+
+---
 
 ## ▶️ 실행 방법
 
-브라우저에서 상단 링크 [Live Demo]를 클릭하여 바로 실행할 수 있습니다.
+브라우저에서 상단 링크를 클릭하여 바로 실행할 수 있습니다.
+
 
 
 
