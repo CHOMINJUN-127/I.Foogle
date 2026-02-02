@@ -60,4 +60,6 @@ I.Foogle이라는 이름은 'I'가 Information(정보), 'F'가 Finger(손가락)
 
 
 ## 📸 미리보기 (선택)
+
+![I.Foogle](https://github.com/CHOMINJUN-127/I.Foogle/blob/main/I.Foogle.png)
 ## 📄 라이선스 (선택)
