@@ -59,10 +59,25 @@ I.Foogle이라는 이름은 'I'가 Information(정보), 'F'가 Finger(손가락)
 - 최신 브라우저(Chrome, Edge, Firefox 등)에서 최적화되어 있으며, 일부 구형 브라우저에서는 UI가 다르게 보일 수 있습니다.
 
 
-## 📸 미리보기 (선택)
+## 📸 미리보기 
+
+> I.Foogle은 검색 과정을 단순화하고, 결과를 직관적으로 보여주는 웹 서비스입니다.
+
+
+
+### 🔎 메인 화면
+- 검색어 입력 및 실시간 반응형 UI
 
 ![I.Foogle](https://github.com/CHOMINJUN-127/I.Foogle/blob/main/I.Foogle.png)
 
 
+### 📄 검색 결과 화면
+- 검색 결과를 카드 형태로 정리하여 가독성 향상
+
 ![I.Foogle-검색](https://github.com/CHOMINJUN-127/I.Foogle/blob/main/I.Foogle-%EA%B2%80%EC%83%89.png)
-## 📄 라이선스 (선택)
+
+
+## 📄 라이선스
+
+본 프로젝트는 학습 및 포트폴리오 용도로 공개되었습니다.  
+상업적 사용은 허용되지 않습니다.
